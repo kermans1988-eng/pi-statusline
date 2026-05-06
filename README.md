@@ -1,10 +1,13 @@
 # pi-statusline
 
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/kermans1988-eng/pi-statusline?style=flat-square)](https://github.com/kermans1988-eng/pi-statusline/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
+
 Расширение (extension) для [Pi Coding Agent](https://pi.dev), которое заменяет стандартный статус-бар на информативный футер с подробной статистикой сессии.
 
-![Statusline Screenshot](https://your-screenshot-link-here)
+![Statusline Screenshot](https://via.placeholder.com/800x100?text=Statusline+Preview)
 
-> 📸 **Скриншот:** Замени ссылку выше на реальное изображение или ссылку с YouTube (если есть).
+> 📸 **Скриншот:** Добавь ссылку на реальное изображение или видео с YouTube, когда будет готово.
 
 ---
 
@@ -20,13 +23,18 @@
 
 ## Установка
 
-1. Скопируй файл расширения в папку extensions Pi:
+1. Скачай файл расширения или клонируй репозиторий:
    ```bash
-   cp pi-statusline.ts ~/.pi/agent/extensions/
+   git clone https://github.com/kermans1988-eng/pi-statusline.git
+   ```
+
+2. Скопируй `pi-statusline.ts` в папку extensions Pi:
+   ```bash
+   cp pi-statusline/pi-statusline.ts ~/.pi/agent/extensions/
    ```
    *На Windows:* скопируй в `C:\Users\YourUser\.pi\agent\extensions\`
 
-2. Перезагрузи Pi:
+3. Перезагрузи Pi:
    ```
    /reload
    ```
@@ -72,8 +80,11 @@
 
 ---
 
+## Ссылки
+
+- **GitHub:** [kermans1988-eng/pi-statusline](https://github.com/kermans1988-eng/pi-statusline)
+- **Pi Agent:** [pi.dev](https://pi.dev)
+
 ## Лицензия
 
-MIT — свободное использование, модификация и распространение.
-
-См. файл [LICENSE](LICENSE).
+[MIT License](LICENSE) — свободное использование, модификация и распространение.
