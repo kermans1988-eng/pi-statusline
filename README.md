@@ -5,9 +5,9 @@
 
 Расширение (extension) для [Pi Coding Agent](https://pi.dev), которое заменяет стандартный статус-бар на информативный футер с подробной статистикой сессии.
 
-![Statusline Screenshot](https://via.placeholder.com/800x100?text=Statusline+Preview)
+![Statusline Screenshot](screenshot.png)
 
-> 📸 **Скриншот:** Добавь ссылку на реальное изображение или видео с YouTube, когда будет готово.
+> 📸 **Скриншот:** Внешний вид расширения в терминале.
 
 ---
 
